@@ -1,6 +1,19 @@
 <template>
     <header class="container">
-        
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h1>Olá, eu sou o <span>Jóshua Martins!</span></h1>
+            <p>Nascido na cidade de Manaus, AM, sou apaixonado por tecnologia desde os meus 6 anos de idade. Ainda na
+                adolescência, tive meu primeiro contato com programação e aos 17 anos, ao completar o ensino médio,
+                decidi embarcar na carreira para me tornar, um dia, um desenvolvedor full stack.
+                <span>Hoje, com 18 anos, estou cursando Análise e Desenvolvimento de Sistemas (3/5) na UniFAVIP.</span>
+            </p>
+            <button class="btn">Entre em contato!</button>
+        </div>
+        <div class="image">
+            <img src="https://i.imgur.com/0heueVu.jpg">
+        </div>
     </header>
 </template>
 
@@ -64,64 +77,5 @@
         margin: auto;
         border-radius: 50px;
         max-height: 1100px;
-    }
-
-    section .header {
-        margin-bottom: 1rem;
-        color: #fff;
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 600;
-    }
-
-    .habilities {
-        margin-top: 4rem;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 3rem;
-    }
-
-    .habilities .card {
-        background-color: #27272a;
-        border-radius: 15px;
-        padding: 1rem;
-        border: 2px solid transparent;
-        transition: all 0.3s ease;
-    }
-
-    .habilities .card:hover {
-        background-color: #323232;
-        border-color: #fff;
-    }
-
-    .habilities .card span {
-        background-color: #6200ff;
-        border-radius: 5px;
-        margin-bottom: 1rem;
-        font-size: 1.75rem;
-        display: inline-block;
-        color: #fff;
-        padding: 2px 9px;
-    }
-
-    .habilities .card h4 {
-        margin-bottom: 0.5rem;
-        color: #fff;
-        font-weight: 600;
-        font-size: 1.5rem;
-    }
-
-    .habilities .card p {
-        color: #ccc;
-        margin-bottom: 0.5rem;
-    }
-
-    .habilities .card a {
-        color: #fff;
-        transition: all 0.3s ease;
-    }
-
-    .habilities .card a:hover {
-        color: #5200cc;
     }
 </style>
